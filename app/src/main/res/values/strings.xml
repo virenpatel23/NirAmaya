@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">NirAmaya</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_report">Report</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_view_report">View Report</string>
+    <string name="menu_contact">Contacts</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_logout">logout</string>
+    <string name="menu_check_disease">Check Disease</string>
+    <string-array name="disease" fontFamily="sans-serif">
+        <item>---------------- Disease List ----------------</item>
+        <item>Malaria</item>
+        <item>Dengue</item>
+        <item>Typhoid</item>
+        <item>Gastro_Enteritis</item>
+        <item>Pulmonary TB</item>
+        <item>Pneumonia</item>
+        <item>Acute Respiratory Infections</item>
+        <item>Hepatitis</item>
+        <item>Cholera</item>
+        <item>Chikungunya</item>
+        <item>Filaria</item>
+    </string-array>
+    <string-array name="BloodGroup" fontFamily="sans-serif">
+        <item>---------------- Blood Group ----------------</item>
+        <item>A+</item>
+        <item>O+</item>
+        <item>B+</item>
+        <item>AB-</item>
+        <item>A-</item>
+        <item>O-</item>
+        <item>B-</item>
+        <item>AB-</item>
+    </string-array>
+    <string-array name="symptoms" fontFamily="sans-serif">
+        <item>Diarrhea</item>
+        <item>Vomiting</item>
+        <item>Respiratory</item>
+        <item>High Fever</item>
+        <item>Skin Rash</item>
+        <item>Muscle Pain</item>
+        <item>Anemia</item>
+        <item>Nausea</item>
+        <item>Headache</item>
+        <item>Convulsions</item>
+    </string-array>
+    <string name="dialog_title">Symptoms</string>
+    <string name="ok_label">OK</string>
+    <string name="dismiss_label">Dismiss</string>
+    <string name="clear_all_label">Clear all</string>
+    <string-array name="timeslot" fontFamily="sans-serif">
+        <item>--------------- Time Duration ---------------</item>
+        <item>Last 7 Days</item>
+        <item>Last Month</item>
+        <item>Last 3 Months</item>
+    </string-array>
+
+    <string name="Civilhospital">
+    <a href="http://www.nchsurat.org/contactus.php">New Civil Hospital</a>
+    </string>
+
+    <string name="Mahavirhospital">
+    <a href="http://www.mahavirhospital.com">Mahavir Hospital</a>
+    </string>
+    <string name="Applehospital">
+    <a href="http://www.applehospitalsurat.com">Apple Hospital</a>
+    </string>
+    <string name="Smimerhospital">
+    <a href="http://smimer.suratmunicipal.gov.in/">SMIMER Hospital</a>
+    </string>
+
+</resources>

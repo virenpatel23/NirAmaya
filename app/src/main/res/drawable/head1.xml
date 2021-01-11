@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <corners
+                android:bottomLeftRadius="25dp"
+                android:bottomRightRadius="25dp"
+                android:topLeftRadius="25dp"
+                android:topRightRadius="25dp">
+
+            </corners>
+            <gradient
+                android:angle="45"
+                android:centerX="35%"
+                android:centerColor="@color/common_google_signin_btn_text_dark_default"
+                android:startColor="@color/common_google_signin_btn_text_dark_default"
+                android:endColor="@color/common_google_signin_btn_text_dark_default"
+                android:type="linear"
+                />
+        </shape>
+    </item>
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners
+                android:bottomLeftRadius="25dp"
+                android:bottomRightRadius="25dp"
+                android:topLeftRadius="25dp"
+                android:topRightRadius="25dp">
+
+            </corners>
+            <gradient
+                android:angle="45"
+                android:centerX="35%"
+                android:centerColor="@color/common_google_signin_btn_text_dark_default"
+                android:startColor="@color/common_google_signin_btn_text_dark_default"
+                android:endColor="@color/common_google_signin_btn_text_dark_default"
+                android:type="linear"
+                />
+
+
+        </shape>
+    </item>
+
+</selector>

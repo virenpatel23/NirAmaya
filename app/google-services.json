@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "205213914392",
+    "firebase_url": "https://niraamaya-755be.firebaseio.com",
+    "project_id": "niraamaya-755be",
+    "storage_bucket": "niraamaya-755be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205213914392:android:9ebb637d62e08e0fbd7a6d",
+        "android_client_info": {
+          "package_name": "com.example.niramaya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205213914392-4sf3cj0faltso7lf4d1pso4pudku8fg9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.niramaya",
+            "certificate_hash": "923c647d1b0dd163db26f22ef1c0c96544a7346e"
+          }
+        },
+        {
+          "client_id": "205213914392-daghed4ai7mcurq285hgerc4mhrubshc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIRS40t_tldUnEvt9ez8-s3224ECVwpKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205213914392-daghed4ai7mcurq285hgerc4mhrubshc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

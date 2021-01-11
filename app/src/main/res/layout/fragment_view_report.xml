@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/choices"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:paddingTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_border"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/header"
+                android:fontFamily="sans-serif"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:text="Select Disease :"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/edittext_border"
+                android:entries="@array/disease"
+                android:gravity="center"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/header"
+                android:fontFamily="sans-serif"
+                android:padding="5dp"
+                android:text="Select Area :"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="20sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoArea"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/edittext_border"
+                android:fontFamily="sans-serif"
+                android:hint="Enter Area"
+                android:textAlignment="center"
+                android:textSize="20sp">
+
+            </AutoCompleteTextView>
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:layout_alignTop="@+id/autoArea"
+                android:layout_alignRight="@+id/autoArea"
+                android:layout_alignBottom="@+id/autoArea"
+                android:padding="5dp"
+                android:src="@drawable/ic_expand" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/header"
+                android:fontFamily="sans-serif"
+                android:padding="5dp"
+                android:text="Select Time Period  :"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/edittext_border"
+                android:entries="@array/timeslot"
+                android:gravity="center"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/viewG"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/rounded_button"
+                android:fontFamily="sans-serif"
+                android:text="View Graph"
+                android:textAllCaps="false"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:id="@+id/graph"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:visibility="invisible">
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barchart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="119dp"
+            android:background="@drawable/edittext_border"
+            android:padding="10dp"
+            android:paddingTop="15dp"
+            android:visibility="invisible" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/linechart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="184dp"
+            android:background="@drawable/edittext_border"
+            android:padding="10dp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/header"
+        android:fontFamily="sans-serif"
+        android:text="User Profile"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/prname"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:text="Name"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=":"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/pname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/db"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:text="DOB"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/a2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=":"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/prdob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/agee"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:text="Age"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=":"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/prage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/gen"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Gender"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/a4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=":"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/prgender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Email"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/a5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=":"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/premail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ar"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Area"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/a6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=":"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/prarea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="17sp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_button"
+        android:text="Update Profile"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>

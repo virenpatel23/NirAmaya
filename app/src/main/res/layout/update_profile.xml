@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Updateprofile"
+    android:padding="15dp"
+    >
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/header"
+                android:fontFamily="sans-serif"
+                android:text="Update Profile"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFFF"
+                android:textSize="25sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/p_name"
+                android:layout_marginTop="40dp"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Full Name"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20sp"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ema"
+                android:layout_marginTop="20dp"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Email"
+                    android:fontFamily="sans-serif"
+                    android:textSize="20sp"
+                    android:inputType="textEmailAddress" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="25dp"
+                android:text="Select Date Of Birth"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:fontFamily="sans-serif"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoArea"
+                android:layout_width="match_parent"
+                android:hint="Select Area"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                >
+            </AutoCompleteTextView>
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="-38dp"
+                android:src="@drawable/ic_expand" />
+
+
+            <RadioGroup
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="50dp"
+
+                android:layout_gravity="center_horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender:"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="sans-serif"
+                    android:padding="3dp"
+                    android:textColor="@color/common_google_signin_btn_text_dark_default"
+                    android:textSize="17sp"/>
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Male"
+                    android:fontFamily="sans-serif"
+                    android:textSize="17sp"/>
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Female"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="17sp"/>
+
+                <RadioButton
+                    android:id="@+id/others"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Others"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="17sp"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_button"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:text="Submit"
+                android:fontFamily="sans-serif"
+                android:textSize="20sp"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/all" android:title="All Diseases"></item>
+    <item android:id="@+id/item1" android:title="Malaria"></item>
+    <item android:id="@+id/item2" android:title="Dengue"></item>
+    <item android:id="@+id/item3" android:title="Typhoid"></item>
+    <item android:id="@+id/item4" android:title="Gastro_Enteritis"></item>
+    <item android:id="@+id/item5" android:title="Pulmonary TB"></item>
+    <item android:id="@+id/item6" android:title="Pneumonia"></item>
+    <item android:id="@+id/item7" android:title="Acute Respiratory Infections"></item>
+    <item android:id="@+id/item8" android:title="Hepatitis"></item>
+    <item android:id="@+id/item9" android:title="Cholera"></item>
+    <item android:id="@+id/item10" android:title="Chikungunya"></item>
+    <item android:id="@+id/item11" android:title="Filaria"></item>
+
+</menu>
